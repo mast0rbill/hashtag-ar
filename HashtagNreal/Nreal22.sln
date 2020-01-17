@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nreal22", "Assembly-CSharp.csproj", "{86339C9B-B481-F960-C3AE-2F2EAB67667E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nreal22", "Assembly-CSharp-Editor.csproj", "{EF58EF39-D79A-A21E-9276-519B620F3028}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86339C9B-B481-F960-C3AE-2F2EAB67667E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86339C9B-B481-F960-C3AE-2F2EAB67667E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86339C9B-B481-F960-C3AE-2F2EAB67667E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86339C9B-B481-F960-C3AE-2F2EAB67667E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF58EF39-D79A-A21E-9276-519B620F3028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF58EF39-D79A-A21E-9276-519B620F3028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF58EF39-D79A-A21E-9276-519B620F3028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF58EF39-D79A-A21E-9276-519B620F3028}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

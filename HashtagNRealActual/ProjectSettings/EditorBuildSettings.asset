@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Hashtag/Scenes/hashtags.unity
+    guid: 307c3255630d6b64eba049faa1b70ed4
+  - enabled: 1
     path: Assets/NRSDK/Demos/HelloMR.unity
     guid: dd74f1c9685ef48499229d4957b58000
   - enabled: 1

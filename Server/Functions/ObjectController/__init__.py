@@ -14,12 +14,13 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     col = db["objects"]
 
     if req.method == 'GET':
-        collectionStr = col.find(f'{{"hashtag":{hashtag}}}')
+        collectionStr = col.find({"hashtag":hashtag})
         return func.HttpResponse(f"{dumps(collectionStr)}\n")
     elif req.method == 'POST':
         objType = reqBody["objType"]
         source = reqBody["source"]
-        col.insert_one(f'{{"hashtag":"{hashtag}", "location":"{location}", "objType":"{objType}", "source":"{source}"}}')
-        return func.HttpResponse(f"Request made: {newDoc}\n")
+        insertionDict = {"hashtag":hashtag, "location":location, "objType":objType, "source":source}
+        col.insert_one(insertionDict)
+        return func.HttpResponse(f"Request made: {str(insertionDict)}\n")
     
     return func.HttpResponse("Bad request!", 400)

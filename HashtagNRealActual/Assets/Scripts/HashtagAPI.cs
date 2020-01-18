@@ -5,6 +5,11 @@ using UnityEngine;
 using UnityEngine.Networking;
 
 [System.Serializable]
+public struct IDDto {
+	public string oid;
+}
+
+[System.Serializable]
 public struct HashtagObject {
 	public string location;
 	public string hashtag;
@@ -41,6 +46,7 @@ public class HashtagAPI : MonoBehaviour {
 		if(req.isNetworkError) {
 			Debug.LogError(req.error);
 		} else {
+			Debug.LogError(req.downloadHandler.text);
 			string formattedResp = $"{{\"objs\":{req.downloadHandler.text}}}";
 			HashtagObject[] hashtagObjs = ((HashtagArrayWrapper)JsonUtility.FromJson<HashtagArrayWrapper>(formattedResp)).objs;
 			then(hashtagObjs);

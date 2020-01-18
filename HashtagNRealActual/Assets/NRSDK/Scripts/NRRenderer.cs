@@ -48,7 +48,7 @@ namespace NRKernal
         static NativeRenderring m_NativeRenderring { get; set; }
         /// @endcond
 
-        private const int EyeTextureCount = 3 * (int)Eyes.Count;
+        private const int EyeTextureCount = 5 * (int)Eyes.Count;
         private readonly RenderTexture[] eyeTextures = new RenderTexture[EyeTextureCount];
         private Dictionary<RenderTexture, IntPtr> m_RTDict = new Dictionary<RenderTexture, IntPtr>();
 

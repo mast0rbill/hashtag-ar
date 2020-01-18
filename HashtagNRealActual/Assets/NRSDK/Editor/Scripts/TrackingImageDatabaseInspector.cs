@@ -215,7 +215,7 @@ namespace NRKernal
                 image.Width = image.Height = (int)(defaultWidth * 1000);
             }
 
-            string param = string.Format("-image_path={0} -save_dir={1} -width={2}",
+            string param = string.Format("-image_path=\"{0}\" -save_dir=\"{1}\" -width=\"{2}\"",
                         imagepath, outpath, image.Width).Trim();
 
             string result = string.Empty;

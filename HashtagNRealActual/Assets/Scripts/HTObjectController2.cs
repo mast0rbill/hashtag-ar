@@ -11,6 +11,7 @@ public class HTObjectController2 : MonoBehaviour
     bool lastTracking = false;
     public Transform worldParent;
     public static GameObject currentHashtagParent;
+    public static int currentHashtag;
 
     public GameObject[] worldMap;
 
@@ -72,16 +73,19 @@ public class HTObjectController2 : MonoBehaviour
         {
             worldMap[0].SetActive(true);
             currentHashtagParent = worldMap[0];
+            currentHashtag = 0;
         }
         else if (ht.ToLower() == "mitmedialab")
         {
             worldMap[1].SetActive(true);
             currentHashtagParent = worldMap[1];
+            currentHashtag = 1;
         }
         else if (ht.ToLower() == "socialgood")
         {
             worldMap[2].SetActive(true);
             currentHashtagParent = worldMap[2];
+            currentHashtag = 2;
         }
 
         canSwapHashtag = true;

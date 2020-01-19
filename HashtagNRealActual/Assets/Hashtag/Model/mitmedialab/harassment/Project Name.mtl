@@ -1,0 +1,30 @@
+newmtl 3D Text material 1_a1b34cf8-969c-4c1c-a60b-524d854992fb
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl Blue To Pink_579a3e5d-962d-41c0-8b89-0a2fdfa277b7
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd .\a9b44ce8-45e8-4f7e-a381-f972ca96d09e.png
+newmtl mat18 1_b569be17-24d4-41ee-839f-a84437c75676
+Kd 1.000 0.800 0.530
+d 1.000
+newmtl mat20 1_2c4cc238-4260-42cb-b279-dd363edf2154
+Kd 0.470 0.330 0.280
+d 1.000
+newmtl mat8_2506976f-fbc7-4c7c-9ec8-3a05be6bd157
+Kd 0.960 0.260 0.210
+d 1.000
+newmtl mat19_adbe1575-9f91-4fbc-a1c5-bd800d2348d3
+Kd 0.870 0.600 0.270
+d 1.000
+newmtl Material.009_402e2a48-909d-4af8-9340-a620c1272fb8
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd .\1373388b-d749-4e23-9249-a9a11a8993a9.jpg
+newmtl Material.006_5ac80dee-101c-49cd-9102-57198f0e7ccc
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd .\1373388b-d749-4e23-9249-a9a11a8993a9.jpg
+newmtl Pin material 1_9f50f833-d986-48b1-ae49-abfd940f982a
+Kd 1.000 0.796 0.247
+d 1.000

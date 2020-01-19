@@ -8,10 +8,16 @@ public class TextBoxController : MonoBehaviour {
 	public TextMeshPro textMeshPro;
 	private Vector3 targetPos;
 	private bool reached = false;
+	public GameObject[] hashtags;
 
-	public void SetText(string t, Vector3 targetPos) {
+	public void SetText(string t, Vector3 targetPos, int curHashtag) {
 		textMeshPro.text = t;
 		this.targetPos = targetPos;
+
+		foreach(GameObject g in hashtags) {
+			g.SetActive(false);
+		}
+		hashtags[curHashtag].SetActive(true);
 	}
 
 	void Update() {

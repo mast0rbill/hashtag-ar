@@ -1,0 +1,20 @@
+newmtl 3D Text material 5_fb3c48cb-1164-4090-a9c7-202010f5873e
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl Blue To Pink_caff0b5b-3b3e-4d18-9fdb-b4f8950f84c7
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd .\01cdd65a-6018-4996-9361-80b09e45aa22.png
+newmtl lambert2SG_d555a668-ae31-497b-9bee-d3e302a82964
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd .\78aa5829-c4ae-4282-81c3-6a62d306d3bc.jpg
+newmtl mat13 1_e4f7f7ba-bc12-4e51-9eae-4cfbc502b584
+Kd 1.000 0.600 0.000
+d 1.000
+newmtl mat14 1_2d5fd858-7fd6-4650-b3f3-ea7a2cf5b7b3
+Kd 1.000 0.340 0.130
+d 1.000
+newmtl mat12 1_90c8fbe7-322b-4fa5-9a12-1a7635eddeac
+Kd 1.000 0.920 0.230
+d 1.000

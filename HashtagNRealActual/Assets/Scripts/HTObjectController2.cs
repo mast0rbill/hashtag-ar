@@ -45,13 +45,7 @@ public class HTObjectController2 : MonoBehaviour
             SetHashtag("hacktothefuture");
         } else {
            if(currentHashtagParent != null) {
-                if(!canSwapHashtag) {
-                    //currentHashtagParent.transform.position = Vector3.Lerp(currentHashtagParent.transform.position, new Vector3(currentHashtagParent.transform.position.x, -200f, currentHashtagParent.transform.position.z), 16f * Time.deltaTime);
-                    currentHashtagParent.transform.localScale = Vector3.Lerp(currentHashtagParent.transform.localScale, Vector3.zero, 16f * Time.deltaTime);
-                } else {
-                    //currentHashtagParent.transform.localPosition = Vector3.Lerp(currentHashtagParent.transform.localPosition, Vector3.zero, 16f * Time.deltaTime);
-                    currentHashtagParent.transform.localScale = Vector3.Lerp(currentHashtagParent.transform.localScale, Vector3.one, 16f * Time.deltaTime);
-                }
+
            } 
         }
     }
@@ -64,7 +58,7 @@ public class HTObjectController2 : MonoBehaviour
     private IEnumerator SetHashtagRoutine(string ht) {
         canSwapHashtag = false;
 
-        yield return new WaitForSeconds(0.7f);
+        yield return null;
 
         if(currentHashtagParent != null)
             currentHashtagParent.SetActive(false);

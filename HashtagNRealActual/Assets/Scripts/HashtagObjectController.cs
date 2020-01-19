@@ -40,6 +40,7 @@ public class HashtagObjectController : MonoBehaviour {
 
 	void Update () {
 		if(Time.time - lastUpdatedTime >= 0.25f) {			
+
 			string loc = Input.location.lastData.latitude + "," + Input.location.lastData.longitude;
 			curLoc = LocFromString(loc);
 

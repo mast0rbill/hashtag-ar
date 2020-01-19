@@ -15,7 +15,7 @@ public class TextBoxController : MonoBehaviour {
 	}
 
 	void Update() {
-		gameObject.transform.position = Vector3.Lerp(gameObject.transform.position, targetPos, Time.deltaTime * 12f);
+		gameObject.transform.position = Vector3.Lerp(gameObject.transform.position, targetPos, Time.deltaTime * 6f);
 		if((gameObject.transform.position - targetPos).sqrMagnitude <= 0.1f) {
 			if(gameObject.GetComponent<BobUpAndDown>() != null) 
 				gameObject.GetComponent<BobUpAndDown>().Initialize();

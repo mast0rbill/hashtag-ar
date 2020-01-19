@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: ee22900505ad61448981ca153fc36823
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: '!'
+    100002: a
+    100004: Buffer_Layer
+    100006: c
+    100008: e
+    100010: h
+    100012: i
+    100014: k
+    100016: n
+    100018: //RootNode
+    100020: r
+    100022: Rectagle_with_bevel
+    100024: S
+    100026: t
+    400000: '!'
+    400002: a
+    400004: Buffer_Layer
+    400006: c
+    400008: e
+    400010: h
+    400012: i
+    400014: k
+    400016: n
+    400018: //RootNode
+    400020: r
+    400022: Rectagle_with_bevel
+    400024: S
+    400026: t
+    2100000: '!Mat'
+    2100002: aMat
+    2100004: Buffer_LayerMat
+    2100006: cMat
+    2100008: eMat
+    2100010: hMat
+    2100012: iMat
+    2100014: kMat
+    2100016: nMat
+    2100018: rMat
+    2100020: Rectagle_with_bevelMat
+    2100022: SMat
+    2100024: tMat
+    2300000: '!'
+    2300002: a
+    2300004: Buffer_Layer
+    2300006: c
+    2300008: e
+    2300010: h
+    2300012: i
+    2300014: k
+    2300016: n
+    2300018: r
+    2300020: Rectagle_with_bevel
+    2300022: S
+    2300024: t
+    3300000: '!'
+    3300002: a
+    3300004: Buffer_Layer
+    3300006: c
+    3300008: e
+    3300010: h
+    3300012: i
+    3300014: k
+    3300016: n
+    3300018: r
+    3300020: Rectagle_with_bevel
+    3300022: S
+    3300024: t
+    4300000: '!'
+    4300002: a
+    4300004: Buffer_Layer
+    4300006: c
+    4300008: e
+    4300010: h
+    4300012: i
+    4300014: k
+    4300016: n
+    4300018: r
+    4300020: Rectagle_with_bevel
+    4300022: S
+    4300024: t
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

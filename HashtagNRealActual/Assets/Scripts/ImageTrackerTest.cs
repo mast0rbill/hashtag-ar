@@ -34,10 +34,15 @@ public class ImageTrackerTest : MonoBehaviour
                     visualizer.Image = image;
 					Image = image;
 					visualizer.transform.parent = transform;
-					worldAnchor = transform;
+					StartCoroutine(SetAnchorRoutine());
                 }
                 break;
             }
         }
+    }
+
+    IEnumerator SetAnchorRoutine() {
+        yield return new WaitForSeconds(1f);
+        worldAnchor = transform;
     }
 }

@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using NRKernal;
 
 public class HTObjectController2 : MonoBehaviour
 {
+    public static bool canSwapHashtag = true;
 
     bool init = false;
     bool lastTracking = false;
@@ -28,8 +30,10 @@ public class HTObjectController2 : MonoBehaviour
         }
 #endif
 
+#if !UNITY_EDITOR
         if (ImageTrackerTest.worldAnchor == null)
             return;
+#endif
 
         if (!init)
         {
@@ -38,16 +42,32 @@ public class HTObjectController2 : MonoBehaviour
             worldParent.position = new Vector3(ImageTrackerTest.worldAnchor.position.x, 0f, ImageTrackerTest.worldAnchor.position.z);
             worldParent.rotation = Quaternion.Euler(worldParent.eulerAngles.x, ImageTrackerTest.worldAnchor.eulerAngles.y, worldParent.eulerAngles.z);
             SetHashtag("hacktothefuture");
+        } else {
+           if(currentHashtagParent != null) {
+                if(!canSwapHashtag) {
+                    //currentHashtagParent.transform.position = Vector3.Lerp(currentHashtagParent.transform.position, new Vector3(currentHashtagParent.transform.position.x, -200f, currentHashtagParent.transform.position.z), 16f * Time.deltaTime);
+                    currentHashtagParent.transform.localScale = Vector3.Lerp(currentHashtagParent.transform.localScale, Vector3.zero, 16f * Time.deltaTime);
+                } else {
+                    //currentHashtagParent.transform.localPosition = Vector3.Lerp(currentHashtagParent.transform.localPosition, Vector3.zero, 16f * Time.deltaTime);
+                    currentHashtagParent.transform.localScale = Vector3.Lerp(currentHashtagParent.transform.localScale, Vector3.one, 16f * Time.deltaTime);
+                }
+           } 
         }
     }
 
     public void SetHashtag(string ht)
     {
-        foreach (GameObject o in worldMap)
-        {
-            o.SetActive(false);
-        }
+        StartCoroutine(SetHashtagRoutine(ht));
+    }
 
+    private IEnumerator SetHashtagRoutine(string ht) {
+        canSwapHashtag = false;
+
+        yield return new WaitForSeconds(0.7f);
+
+        if(currentHashtagParent != null)
+            currentHashtagParent.SetActive(false);
+        
         if (ht.ToLower() == "hacktothefuture")
         {
             worldMap[0].SetActive(true);
@@ -63,6 +83,8 @@ public class HTObjectController2 : MonoBehaviour
             worldMap[2].SetActive(true);
             currentHashtagParent = worldMap[2];
         }
+
+        canSwapHashtag = true;
     }
 
 }

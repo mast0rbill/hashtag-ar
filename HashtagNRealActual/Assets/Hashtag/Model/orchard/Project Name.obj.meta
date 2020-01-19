@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 6e341e2c89d74ba47a7a2adf3947a7dd
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: a
+    100002: Buffer_Layer
+    100004: c
+    100006: Comp_Mouse
+    100008: d
+    100010: Drive
+    100012: e
+    100014: h
+    100016: k
+    100018: Keyboard1
+    100020: Monitor
+    100022: O
+    100024: p
+    100026: //RootNode
+    100028: r
+    100030: Rectagle_with_bevel
+    100032: S
+    100034: System_unit
+    400000: a
+    400002: Buffer_Layer
+    400004: c
+    400006: Comp_Mouse
+    400008: d
+    400010: Drive
+    400012: e
+    400014: h
+    400016: k
+    400018: Keyboard1
+    400020: Monitor
+    400022: O
+    400024: p
+    400026: //RootNode
+    400028: r
+    400030: Rectagle_with_bevel
+    400032: S
+    400034: System_unit
+    2100000: aMat
+    2100002: Buffer_LayerMat
+    2100004: cMat
+    2100006: Comp_MouseMat
+    2100008: dMat
+    2100010: DriveMat
+    2100012: eMat
+    2100014: hMat
+    2100016: kMat
+    2100018: Keyboard1Mat
+    2100020: MonitorMat
+    2100022: OMat
+    2100024: pMat
+    2100026: rMat
+    2100028: Rectagle_with_bevelMat
+    2100030: SMat
+    2100032: System_unitMat
+    2300000: a
+    2300002: Buffer_Layer
+    2300004: c
+    2300006: Comp_Mouse
+    2300008: d
+    2300010: Drive
+    2300012: e
+    2300014: h
+    2300016: k
+    2300018: Keyboard1
+    2300020: Monitor
+    2300022: O
+    2300024: p
+    2300026: r
+    2300028: Rectagle_with_bevel
+    2300030: S
+    2300032: System_unit
+    3300000: a
+    3300002: Buffer_Layer
+    3300004: c
+    3300006: Comp_Mouse
+    3300008: d
+    3300010: Drive
+    3300012: e
+    3300014: h
+    3300016: k
+    3300018: Keyboard1
+    3300020: Monitor
+    3300022: O
+    3300024: p
+    3300026: r
+    3300028: Rectagle_with_bevel
+    3300030: S
+    3300032: System_unit
+    4300000: a
+    4300002: Buffer_Layer
+    4300004: c
+    4300006: Comp_Mouse
+    4300008: d
+    4300010: Drive
+    4300012: e
+    4300014: h
+    4300016: k
+    4300018: Keyboard1
+    4300020: Monitor
+    4300022: O
+    4300024: p
+    4300026: r
+    4300028: Rectagle_with_bevel
+    4300030: S
+    4300032: System_unit
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

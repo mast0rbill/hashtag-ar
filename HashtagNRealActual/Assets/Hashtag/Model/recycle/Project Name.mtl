@@ -1,0 +1,17 @@
+newmtl 3D Text material 5_6cc1cc09-dabe-4264-bf27-925400d96f4d
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl Blue To Pink_f7411246-4750-4221-a7d4-bc6d073501d1
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd .\4b49d08d-86c4-456a-af62-e6a0df7b14b6.png
+newmtl Material 4_8ad7449f-acdc-455b-9054-9bcb73223a1f
+Kd 0.243 0.247 0.318
+d 1.000
+newmtl Material 7_fc89a339-a752-4991-8e13-6ef03f1e6ffd
+Kd 1.000 1.000 1.000
+d 1.000
+newmtl _eadf27a1-0cb3-4c18-8785-4b4f4d2a1f60
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd .\b82a3853-9dd6-409f-a851-819d4ada80ea.png

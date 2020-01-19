@@ -10,6 +10,11 @@ public class HashtagSwapper : MonoBehaviour {
 	public AudioClip swapSound;
 
 	public void SetHashtag(int i) {
+		gameObject.GetComponent<AudioSource>().PlayOneShot(swapSound);
+
+		if(!HTObjectController2.canSwapHashtag)
+			return;
+
 		foreach(GameObject go in hashtagScreens) {
 			go.SetActive(false);
 		}
@@ -23,7 +28,5 @@ public class HashtagSwapper : MonoBehaviour {
 		} else if(i == 2) {
 			controller.SetHashtag("socialgood");
 		}
-
-		gameObject.GetComponent<AudioSource>().PlayOneShot(swapSound);
 	}
 }

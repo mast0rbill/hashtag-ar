@@ -1,0 +1,70 @@
+newmtl Sphere material 4_322f627b-dbe3-443a-89f1-098e40d3f554
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Sphere material 3_03421022-5696-44cf-9b81-ef41acc7c4a9
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Sphere material 2_9adffee5-18a3-4a1a-8bf5-9b9c1f7953c2
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Sphere material 1_1095a6de-7de9-4c06-905e-e7f71cdd2a92
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Sphere material 5_dab3cd15-2da5-4af4-9611-4d8fd8783e64
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Sphere material 6_f9fb0c5e-64f6-425d-ba06-f517cdc259a4
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Sphere material 7_a4abf50d-17ed-486f-b76e-bae7ea931d1b
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Sphere material 8_d6f335c7-5b30-4c9c-9ad7-78035dc92b45
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Sphere material 9_cbe89e3f-6c20-4327-860c-40a06c2df4df
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Sphere material 10_0d208c70-aa19-4dcf-9f34-c9852bf2fb50
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Sphere material 11_7137d5a3-99ad-4f7e-9c99-d404a51d0555
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Sphere material 12_ba83e252-7902-48f1-8849-19cfeebe61ef
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Sphere material 13_87965bb7-42e2-49cd-860f-76772c4f04bf
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Sphere material 14_f9e3e369-efa9-493c-9c31-3b7215fe09fb
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Sphere material 15_dcb60e37-3c3e-47ea-bf82-c7d6046f6274
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Sphere material 16_c9e5e60a-1bb6-4036-8f01-e0d5d0900c20
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Sphere material 17_543a9aec-d558-4d88-8739-46f88579b254
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Sphere material 18_20ef903f-025a-4b08-b5fb-676c9c4bd18e
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Sphere material 19_44157a2e-426e-47f6-9876-b8801d7fcbe7
+Kd 1.000 0.000 0.000
+d 1.000
+newmtl Organic Shapes Pink Noise 1_38a65c0b-266e-4885-88f6-9a414b7c3759
+Kd 0.749 0.561 0.561
+d 1.000
+newmtl Material.001 2_c9c6fd78-0b56-48f4-9a91-37f5e39a8cef
+Kd 0.800 0.054 0.045
+d 1.000
+newmtl Material.003 2_696f2b5c-17ff-4fac-a38e-fb6df0e578f5
+Kd 0.135 0.135 0.135
+d 1.000
+newmtl Material 2_e22116f7-4a02-4356-87da-b8efb89d0f7e
+Kd 1.000 1.000 1.000
+d 1.000
+map_Kd .\8d9decfd-4088-4b8e-9066-4dfad7987522.png

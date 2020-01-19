@@ -27,6 +27,8 @@ public class HashtagSwapper : MonoBehaviour {
 			controller.SetHashtag("mitmedialab");
 		} else if(i == 2) {
 			controller.SetHashtag("socialgood");
+		} else if(i == 3) {
+			controller.SetHashtag("all");
 		}
 	}
 }

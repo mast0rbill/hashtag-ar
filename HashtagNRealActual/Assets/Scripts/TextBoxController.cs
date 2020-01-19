@@ -19,7 +19,9 @@ public class TextBoxController : MonoBehaviour {
 		foreach(GameObject g in hashtags) {
 			g.SetActive(false);
 		}
-		hashtags[curHashtag].SetActive(true);
+
+		if(curHashtag != 3)
+			hashtags[curHashtag].SetActive(true);
 		backRend.material = mats[curHashtag];
 	}
 

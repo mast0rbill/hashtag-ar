@@ -14,6 +14,9 @@ public class ObjectPlacementController : MonoBehaviour {
         {
             return;
         }
+
+		if(HTObjectController2.currentHashtagParent == null)
+			return;
 		
 		Vector3 pos = NRSessionManager.Instance.NRHMDPoseTracker.centerCamera.transform.position;
 		Quaternion rot = Quaternion.LookRotation(-NRSessionManager.Instance.NRHMDPoseTracker.centerCamera.transform.forward, Vector3.up);

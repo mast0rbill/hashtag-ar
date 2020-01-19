@@ -27,7 +27,7 @@ public class HTObjectController2 : MonoBehaviour
         {
             init = true;
             worldParent.gameObject.SetActive(true);
-            SetHashtag("hacktothefuture");
+            SetHashtag("all");
         }
 #endif
 
@@ -42,7 +42,7 @@ public class HTObjectController2 : MonoBehaviour
             init = true;
             worldParent.position = new Vector3(ImageTrackerTest.worldAnchor.position.x, 0f, ImageTrackerTest.worldAnchor.position.z);
             worldParent.rotation = Quaternion.Euler(worldParent.eulerAngles.x, ImageTrackerTest.worldAnchor.eulerAngles.y, worldParent.eulerAngles.z);
-            SetHashtag("hacktothefuture");
+            SetHashtag("all");
         } else {
            if(currentHashtagParent != null) {
 
@@ -63,6 +63,10 @@ public class HTObjectController2 : MonoBehaviour
         if(currentHashtagParent != null)
             currentHashtagParent.SetActive(false);
         
+        foreach(GameObject go in worldMap) {
+            go.SetActive(false);
+        }
+        
         if (ht.ToLower() == "hacktothefuture")
         {
             worldMap[0].SetActive(true);
@@ -80,6 +84,12 @@ public class HTObjectController2 : MonoBehaviour
             worldMap[2].SetActive(true);
             currentHashtagParent = worldMap[2];
             currentHashtag = 2;
+        } else if(ht.ToLower() == "all") {
+            worldMap[0].SetActive(true);
+            worldMap[1].SetActive(true);
+            worldMap[2].SetActive(true);
+            currentHashtagParent = null;
+            currentHashtag = 3;
         }
 
         canSwapHashtag = true;

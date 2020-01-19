@@ -9,6 +9,8 @@ public class TextBoxController : MonoBehaviour {
 	private Vector3 targetPos;
 	private bool reached = false;
 	public GameObject[] hashtags;
+	public Renderer backRend;
+	public Material[] mats;
 
 	public void SetText(string t, Vector3 targetPos, int curHashtag) {
 		textMeshPro.text = t;
@@ -18,6 +20,7 @@ public class TextBoxController : MonoBehaviour {
 			g.SetActive(false);
 		}
 		hashtags[curHashtag].SetActive(true);
+		backRend.material = mats[curHashtag];
 	}
 
 	void Update() {

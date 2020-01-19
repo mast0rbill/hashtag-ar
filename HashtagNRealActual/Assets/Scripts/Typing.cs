@@ -2,13 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class Typing : MonoBehaviour {
+public class Typing : MonoBehaviour, IPointerClickHandler {
 	
-	private TouchScreenKeyboard keyboard;
 	public Text inputText;
 
-	// Use this for initialization
+	public void OnPointerClick (PointerEventData eventData) {
+		GetComponent<InputField>().Select();
+		Debug.LogError("HERE");
+		TouchScreenKeyboard.Open("", TouchScreenKeyboardType.ASCIICapable);
+    }
+
+	/*// Use this for initialization
 	void Start () {
 		
 	}
@@ -28,5 +34,5 @@ public class Typing : MonoBehaviour {
 
 	void OnClick() {
 		keyboard = TouchScreenKeyboard.Open("", TouchScreenKeyboardType.ASCIICapable);
-	}
+	}*/
 }

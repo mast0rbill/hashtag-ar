@@ -17,6 +17,7 @@ public class ObjectPlacementController : MonoBehaviour {
 		Quaternion rot = Quaternion.LookRotation(-NRSessionManager.Instance.NRHMDPoseTracker.centerCamera.transform.forward, Vector3.up);
 		GetComponent<AudioSource>().PlayOneShot(placeClip);
 		GameObject go = Instantiate(textPrefab, pos, rot);
-		go.GetComponent<TextBoxController>().SetText("Test text 123456", NRSessionManager.Instance.NRHMDPoseTracker.centerCamera.transform.position + NRSessionManager.Instance.NRHMDPoseTracker.centerCamera.transform.forward * 2f);
+		go.GetComponent<TextBoxController>().SetText("Hello!", NRSessionManager.Instance.NRHMDPoseTracker.centerCamera.transform.position + NRSessionManager.Instance.NRHMDPoseTracker.centerCamera.transform.forward * 2f);
+		go.transform.parent = HTObjectController2.currentHashtagParent.transform;
 	}
 }

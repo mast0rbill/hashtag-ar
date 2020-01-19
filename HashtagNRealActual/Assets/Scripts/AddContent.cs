@@ -16,7 +16,7 @@ public class AddContent : MonoBehaviour {
 		
 	}
 
-	void onClick() {
+	public void onClick() {
 		additionalContent.SetActive(true);
 	}
 }

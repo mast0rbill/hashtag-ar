@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Hashtag/Scenes/anchor test.unity
     guid: eabb000ef3bfc8b4fb19160e4b617db9
+  - enabled: 0
+    path: Assets/Hashtag/Scenes/test.unity
+    guid: 1d5946adf3179b148b23ec4fa12a063e
   m_configObjects: {}
